@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Banner from "../components/Banner";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
-import LargCard from "../components/LargCard";
+import LargeCard from "../components/LargeCard";
 import MediumCard from "../components/MediumCard";
 import SmallCard from "../components/SmallCard";
 
@@ -43,13 +44,15 @@ export default function Home({ exploreData, cardsData }) {
           </div>
         </section>
         {/* Lard card section */}
-        <LargCard
+        <LargeCard
           img="https://a0.muscache.com/im/pictures/5b4dc94a-0b4c-4c27-b50f-9c5a5b93c775.jpg?im_w=720"
           title="Try Hosting"
           description="Earn extra income and unlock new opportunities by sharing your space."
           buttonText="Learn More"
         />
+        
       </main>
+      <Footer/>
     </div>
   );
 }

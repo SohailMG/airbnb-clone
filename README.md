@@ -1,25 +1,25 @@
 # Airbnb Clone
 
-An Airbnb clone using React, Nextjs and Tailwindcss
+An Airbnb clone using React, Nextjs for server side rending of different components and tailwindcss for fully responsive design 
 
 
 
-## Authors
+## Author
 
-- [@Github](https://www.github.com/SohailMG)
+- [@Sohail Gsais](https://www.github.com/SohailMG)
 
 
 
 ## Demo
 
-Insert gif or link to demo
+<!-- TODO insert live link  -->
 
 
 
 
 ## Screenshots
 <!-- TODO add screenshot -->
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Full Page](https://i.ibb.co/sQCK3tV/airbnb.png)
 
 
 
@@ -37,8 +37,11 @@ Here are some related projects
 
 ## Lessons Learned
 <!-- TODO lessons learned -->
-What did you learn while building this project? What challenges did you face and how did you overcome them?
-
+- server side rendering
+- static rendering
+- tailwindcss for responsive design
+- React routing
+- Mapbox
 
 
 ## Installation
@@ -59,20 +62,14 @@ If you have any feedback, please reach out to me at gsais.sohail9@gmail.com
 
 ## Features
 <!-- TODO add features -->
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
+- Mobile responsive
 
 
 
 
-## Documentation
-
-[Documentation](https://linktodocumentation)
 
 ## Timelaps
-2h30m
+4h30m 
 
 
 

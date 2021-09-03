@@ -1,5 +1,5 @@
 import Image from "next/image";
-function LargCard({ img, title, description, buttonText }) {
+function LargeCard({ img, title, description, buttonText }) {
   return (
     <section className="relative py-16 cursor-pointer">
       <div className="relative h-96 min-w-[300px]">
@@ -19,4 +19,4 @@ function LargCard({ img, title, description, buttonText }) {
 }
 
 
-export default LargCard;
+export default LargeCard;
