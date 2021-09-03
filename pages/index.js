@@ -1,11 +1,11 @@
 import Head from "next/head";
 import Banner from "../components/Banner";
 import Header from "../components/Header";
+import LargCard from "../components/LargCard";
 import MediumCard from "../components/MediumCard";
 import SmallCard from "../components/SmallCard";
 
-
-export default function Home({ exploreData ,cardsData }) {
+export default function Home({ exploreData, cardsData }) {
   return (
     <div className="">
       <Head>
@@ -37,12 +37,18 @@ export default function Home({ exploreData ,cardsData }) {
         <section>
           <h2 className="text-4xl font-semibold py-8">Live Anywhere</h2>
           <div className="flex space-x-3 overflow-scroll scrollbar-hide p-3 -ml-3">
-
-          {cardsData?.map(({img,title},index) => (
-            <MediumCard key={index} img={img} title={title}/>
+            {cardsData?.map(({ img, title }, index) => (
+              <MediumCard key={index} img={img} title={title} />
             ))}
-            </div>
+          </div>
         </section>
+        {/* Lard card section */}
+        <LargCard
+          img="https://a0.muscache.com/im/pictures/5b4dc94a-0b4c-4c27-b50f-9c5a5b93c775.jpg?im_w=720"
+          title="Try Hosting"
+          description="Earn extra income and unlock new opportunities by sharing your space."
+          buttonText="Learn More"
+        />
       </main>
     </div>
   );
@@ -57,5 +63,5 @@ export async function getStaticProps() {
     (response) => response.json()
   );
 
-  return { props: { exploreData,cardsData } };
+  return { props: { exploreData, cardsData } };
 }
