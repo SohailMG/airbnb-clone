@@ -18,7 +18,7 @@ Insert gif or link to demo
 
 
 ## Screenshots
-
+<!-- TODO add screenshot -->
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
@@ -29,14 +29,14 @@ Insert gif or link to demo
 
 Here are some related projects
 
-[Linkedin Clone](https://github.com/SohailMG/linkedin-clon)
-[Slack Clone](https://github.com/SohailMG/slack-clon)
+[Linkedin Clone](https://github.com/SohailMG/linkedin-clone)
+[Slack Clone](https://github.com/SohailMG/slack-clone)
 
 
 
 
 ## Lessons Learned
-
+<!-- TODO lessons learned -->
 What did you learn while building this project? What challenges did you face and how did you overcome them?
 
 
@@ -58,7 +58,7 @@ If you have any feedback, please reach out to me at gsais.sohail9@gmail.com
 
 
 ## Features
-
+<!-- TODO add features -->
 - Light/dark mode toggle
 - Live previews
 - Fullscreen mode
@@ -70,6 +70,9 @@ If you have any feedback, please reach out to me at gsais.sohail9@gmail.com
 ## Documentation
 
 [Documentation](https://linktodocumentation)
+
+## Timelaps
+2h30m
 
 
 
