@@ -2,8 +2,9 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { useRouter } from "next/dist/client/router";
 import { format } from "date-fns";
+import InfoCard from "../components/InfoCard";
 
-function Search({searchResults}) {
+function Search({ searchResults }) {
   const router = useRouter();
   const { location, startDate, endDate, guests } = router.query;
 
@@ -11,7 +12,7 @@ function Search({searchResults}) {
   const formattedEndDate = format(new Date(endDate), "dd MMM");
   const dateRange = `${formattedStartDate} - ${formattedEndDate}`;
 
-//   TODO: continue with video timestamp
+  //   TODO: continue with video timestamp
   return (
     <div>
       <Header placeholder={`${location} | ${dateRange} | ${guests}`} />
@@ -32,6 +33,23 @@ function Search({searchResults}) {
             <p className="button">Type of place</p>
             <p className="button">Instant book</p>
             <p className="button">More filters</p>
+          </div>
+          {/* SEARCH RESULTS */}
+          <div className="flex flex-col">
+            {searchResults.map(
+              ({ img, location, description, star, price, total,title }, index) => (
+                <InfoCard
+                  key={index + 1}
+                  img={img}
+                  location={location}
+                  description={description}
+                  star={star}
+                  price={price}
+                  title={title}
+                  total={total}
+                />
+              )
+            )}
           </div>
         </section>
       </main>
