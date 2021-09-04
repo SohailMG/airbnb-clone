@@ -3,12 +3,18 @@ import { HeartIcon } from "@heroicons/react/outline";
 import { StarIcon } from "@heroicons/react/solid";
 function InfoCard({ img, location, description, star, price, total, title }) {
   return (
-    <div className="flex py-7 px-2 border-b cursor-pointer hover:opacity-80 hover:shadow-lg pr-4 transition duration-200 ease-out fire:border-t">
-      <div className="relative h-24 w-40 md:h-52 md:w-80 flex-shrink-0">
-        <Image src={img} layout="fill" objectFit="cover" alt={location} className="rounded-2xl"/>
+    <div className="card-container">
+      <div className="relative h-40  w-80 md:h-52 md:w-80 flex-shrink-0">
+        <Image
+          src={img}
+          layout="fill"
+          objectFit="cover"
+          alt={location}
+          className="rounded-2xl"
+        />
       </div>
       <div className="flex flex-col flex-grow pl-5">
-        <div className="flex justify-between">
+        <div className="flex justify-between pt-4">
           <p>{location}</p>
           <HeartIcon className="h-7 cursor-pointer" />
         </div>

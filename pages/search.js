@@ -12,17 +12,17 @@ function Search({ searchResults }) {
   const formattedEndDate = format(new Date(endDate), "dd MMM");
   const dateRange = `${formattedStartDate} - ${formattedEndDate}`;
 
-  //   TODO: continue with video timestamp
+  
   return (
     <div>
-      <Header placeholder={`${location} | ${dateRange} | ${guests}`} />
+      <Header placeholder={`${location} | ${dateRange}`} />
       <main className="flex">
         <section className="flex-grow pt-14 px-6">
           <p className="text-sm">300+ Stays . {dateRange}</p>
           <h1 className="text-4xl font-semibold mt-2 mb-6">
             Stays in {" " + location}
           </h1>
-          <small className="text-gray-400">
+          <small className="text-gray-400 flex flex-grow pb-2">
             Results for stays near {location[0].toUpperCase()}
             {location.substr(1)} | {guests} Guests | from {dateRange}
           </small>

@@ -4,4 +4,9 @@
   .button {
     @apply flex px-4 py-2 border rounded-full cursor-pointer active:scale-95 active:bg-gray-100 transition transform duration-100 ease-out hover:shadow-lg;
   }
+  .card-container {
+      @apply flex flex-col sm:flex-row py-7 px-2 border-b cursor-pointer hover:opacity-80 hover:shadow-lg pr-4 transition duration-200 ease-out first:border-t
+      
+  }
+  
 }

@@ -11,8 +11,6 @@ An Airbnb clone using React, Nextjs for server side rending of different compone
 
 
 ## Demo
-
-
 - [Live Site](https://airbnb-clone-three-chi.vercel.app/)
 
 
@@ -41,8 +39,9 @@ Here are some related projects
 - server side rendering
 - static rendering
 - tailwindcss for responsive design
-- React routing
+- Nextjs routing
 - Mapbox
+- Date Picker
 
 
 ## Installation
@@ -64,13 +63,15 @@ If you have any feedback, please reach out to me at gsais.sohail9@gmail.com
 ## Features
 <!-- TODO add features -->
 - Mobile responsive
+- Date Picker
+- Searching
 
 
 
 
 
 ## Timelaps
-4h30m 
+6h30m 
 
 
 

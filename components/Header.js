@@ -50,16 +50,17 @@ function Header({placeholder}) {
   }
 
   return (
-    <header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10">
+    <header className="sticky top-0 z-50 grid grid-cols-2 sm:grid-cols-3 bg-white shadow-md p-5 md:px-10">
       {/* Left header  */}
-      <div className="relative flex items-center h-10 cursor-pointer my-auto">
+      <div className="hidden sm:inline-block relative flex items-center h-10 cursor-pointer my-auto">
         <Image
           onClick={() => router.push("/")}
           src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c513.png"
           layout="fill"
           objectFit="contain"
           objectPosition="left"
-        />
+          />
+          {/* src="https://i.imgur.com/fxNnPl7.png" */}
       </div>
       {/* middle header  */}
       <div className="flex items-center md:border-2 rounded-full py-2 md:shadow-sm">
