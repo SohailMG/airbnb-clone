@@ -6,20 +6,21 @@ An Airbnb clone using React, Nextjs for server side rending of different compone
 
 ## Author
 
-- [@Sohail Gsais](https://www.github.com/SohailMG)
+- [Sohail Gsais](https://www.github.com/SohailMG)
 
 
 
 ## Demo
 
-<!-- TODO insert live link  -->
+
+- [Live Site](https://airbnb-clone-three-chi.vercel.app/)
+
 
 
 
 
 ## Screenshots
-<!-- TODO add screenshot -->
-![Full Page](https://i.ibb.co/sQCK3tV/airbnb.png)
+![Full Page](https://i.imgur.com/JBNqXJC.png)
 
 
 
