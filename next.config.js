@@ -8,4 +8,8 @@ module.exports = {
       "spng.pngfind.com",
     ],
   },
+  env: {
+    mapbox_key:
+      "pk.eyJ1Ijoic29oYWlsbWciLCJhIjoiY2tzOW16cXRtMHNldTJubHVhODNldmM5eiJ9.nyS0bWIkoM1UJ84VLPg_gA",
+  },
 };
