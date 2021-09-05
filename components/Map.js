@@ -40,7 +40,7 @@ function Map({ searchResults }) {
             >
               <p
                 onClick={() => setSelectedLocation({ long, lat })}
-                className="cursor-pointer text-xs bg-white rounded-2xl p-2"
+                className="cursor-pointer text-xs bg-white rounded-2xl p-2 hover:bg-gray-900 hover:text-white"
               >
                 {total.replace("total", "")}
               </p>

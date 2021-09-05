@@ -1,9 +1,11 @@
 import Image from "next/image";
 import { HeartIcon } from "@heroicons/react/outline";
 import { StarIcon } from "@heroicons/react/solid";
+import { useState } from "react";
 function InfoCard({ img, location, description, star, price, total, title }) {
+  const [heartFill, setHeartFill] = useState("none");
   return (
-    <div className="card-container">
+    <div className="card-container hover:scale-105 transition transform duration-200 ease-out">
       <div className="relative h-40  w-80 md:h-52 md:w-80 flex-shrink-0">
         <Image
           src={img}
@@ -16,7 +18,16 @@ function InfoCard({ img, location, description, star, price, total, title }) {
       <div className="flex flex-col flex-grow pl-5">
         <div className="flex justify-between pt-4">
           <p>{location}</p>
-          <HeartIcon className="h-7 cursor-pointer" />
+          <HeartIcon
+            className="h-7 cursor-pointer "
+            fill={heartFill}
+            onDoubleClick={() => {
+              setHeartFill("black");
+            }}
+            onClick={() => {
+              setHeartFill("none");
+            }}
+          />
         </div>
         <h4 className="text-xl">{title}</h4>
         <div className="border-b w-10 pt-2" />
